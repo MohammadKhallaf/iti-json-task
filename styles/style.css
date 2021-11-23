@@ -1,0 +1,105 @@
+h1,
+h3 {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+/* ################### */
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+html {
+  background-color: white;
+}
+body {
+  width: 60%;
+  margin: auto;
+  border: dimgrey 1px solid;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px dimgrey;
+  padding: 50px;
+  margin-top: 1rem;
+  background-color: rgb(245, 245, 245);
+}
+section{
+  border: 1px solid rgb(126, 0, 0);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px rgba(49, 0, 128, 0.288);
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+p {
+
+  padding: 15px;
+  /* border: 2px solid rgb(180, 0, 0);
+  border-radius: 15px; */
+  font-style: italic;
+  color: dimgrey;
+  font-size: 16px;
+}
+
+input{
+  display: block;
+}
+
+
+/* button {
+  padding: 5px;
+  margin: 5px;
+  /* background-color: ; 
+}
+*/
+/* label,input:not(input[type="radio"]){
+  display: block;
+   width: 70%; 
+  height: 1.5rem;
+  margin: auto;
+  
+}  */
+
+form{
+  /* border: 1px solid rgb(126, 0, 0); */
+  border-radius: 1rem;
+  padding: 1rem ;
+  margin-bottom: 2rem;
+}
+.button-style,a{
+  box-sizing: content-box;
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1rem;
+  background: rgb(75, 75, 75);
+  color: aliceblue;
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.button-style:hover{
+  background: rgb(153, 153, 153);
+  cursor:pointer
+}
+
+.form-style{
+  width: 50%;
+  background: rgb(97, 42, 74);
+}
+.appear{
+  display: none;
+}
+img{
+  display: inline-block;
+  height: 100px;
+}
+
+#searchTextBox {
+padding: 5px;
+margin-bottom: 10px;
+border-radius: 4rem;
+outline: 5px solid rgba(46, 0, 253, 0.226);
+}
